@@ -61,6 +61,10 @@ function renderMarkdown(text) {
     })
     .join("\n");
 
+  // Remove <br/> tags between list items
+  html = html.replace(/<\/li>\s*(<br\/>\s*)*/g, '</li>');
+  html = html.replace(/(<\/ul>|<\/ol>)\s*(<br\/>\s*)*/g, '$1');
+
   return html;
 }
 
@@ -109,7 +113,7 @@ TuneCore Publishing Administration helps songwriters/composers collect publishin
 TuneCore Publishing Administration requires exclusive administration rights for the compositions you register. It does NOT affect your copyright ownership.
 
 COMMISSION RATES (Publishing Administration):
-- 15% commission on royalties collected from the exploitation and broadcast of your compositions (performance, mechanical, etc.)
+- 20% commission on royalties collected from the exploitation and broadcast of your compositions (performance, mechanical, etc.)
 - 50% commission on any earnings from Synchronization (audio-visual / Film & TV licenses)
 TuneCore Publishing will pitch your compositions for Film & TV sync opportunities.
 
@@ -300,10 +304,7 @@ All sales are final. For questions, contact TuneCore support directly.
 == PUBLISHING ADMINISTRATION — SETUP & MANAGEMENT ==
 
 COST & FEES:
-⚠️ NOTE: Two KB articles show conflicting commission rates. Until TuneCore clarifies, always direct users to support.tunecore.com for the current rate.
-- Article 1 states: $75 per writer setup fee + 20% commission on royalties collected
-- Article 2 states: 15% commission on royalties collected
-- Both articles agree: 50% commission on Synchronization (audio-visual) licenses
+$75 one-time sign-up fee + 20% commission on royalties collected. 50% commission on Synchronization licenses.
 - Sign up at tunecore.com or via your account under Publishing Administration → Register.
 
 ADDING COMPOSITIONS:
@@ -1037,7 +1038,7 @@ MULTIPLE RECORDINGS OF THE SAME COMPOSITION:
 Publishing Dashboard → Songs → click drop-down arrow → "Add New Recording" → search Spotify or enter metadata (title, artist, ISRC, label, release date) → "Add Recording."
 
 PUBLISHING COST (UPDATED):
-$75 one-time sign-up fee. 20% commission on royalties collected (per Updates to TuneCore Publishing article). 50% commission on sync licenses. (Note: an older article stated 15% commission — the $75 fee + 20% appears to be the current rate per the updated Publishing Dashboard article.)
+$75 one-time sign-up fee. 20% commission on royalties collected. 50% commission on sync licenses.
 
 SYNC IS OPTIONAL:
 If you opt into sync, TuneCore's sync team pitches and licenses your songs at 50% commission. If you opt out, you can work with other sync agents while still collecting publishing royalties.
@@ -1349,7 +1350,7 @@ Not every view is monetizable. Whether a view has ads depends on: the viewer's t
 == COMMON QUESTIONS ==
 
 Q: Do I keep 100% of my royalties from distribution?
-A: Yes — TuneCore charges a flat annual fee for distribution, not a percentage of your royalties. You keep 100% of revenue from sales and streams. (Publishing Administration is a separate service with its own commission structure: 15% on general royalties, 50% on sync licenses.)
+A: Yes — TuneCore charges a flat annual fee for distribution, not a percentage of your royalties. You keep 100% of revenue from sales and streams. (Publishing Administration is a separate service with its own commission structure: 20% on general royalties, 50% on sync licenses.)
 
 Q: What is the difference between a Performer and a Songwriter?
 A: A Performer (recording artist) earns money from sales/streams of the sound recording. A Songwriter/Composer earns publishing royalties from the underlying composition (melody and lyrics). These are separate royalty streams collected differently.
@@ -1797,7 +1798,7 @@ export default function App() {
           padding-left: 22px;
           color: #ffffff;
         }
-        .md-body li { margin-bottom: 5px; line-height: 1.65; color: #ffffff; }
+        .md-body li { margin-bottom: 2px; line-height: 1.6; color: #ffffff; }
         .md-body strong { color: #ffffff; font-weight: 700; }
         .md-body em { color: #e0dbd0; font-style: italic; }
         .md-body code {
