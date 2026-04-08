@@ -4,9 +4,9 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
-  // Optional: password protection for LP access
+  // Optional: password protection
   // const { password } = req.headers;
-  // if (password !== process.env.LP_PASSWORD) {
+  // if (password !== process.env.CHAT_PASSWORD) {
   //   return res.status(401).json({ error: "Unauthorized" });
   // }
 
