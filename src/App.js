@@ -838,6 +838,450 @@ Key differentiators:
 
 
 
+== TAXES & PAYONEER ==
+
+TAX FORMS — WHICH TO USE:
+- U.S. persons (individuals or businesses): Submit a W-9 through Payoneer
+  - Individual/Sole Proprietor: use your SSN (XXX-XX-XXXX)
+  - Business (LLC, Corporation, Trust): use your EIN (XX-XXXXXXX)
+- Non-U.S. persons: Submit a W-8 form (W-8BEN for individuals, etc.) — you can use a foreign tax ID instead of a U.S. ITIN
+- Use the wizard on Payoneer's tax form page to determine which form applies to you
+- TuneCore cannot provide tax advice — consult your local tax advisor or irs.gov
+
+SUBMITTING TAX FORMS — PAYONEER:
+All W-9 forms must be submitted through Payoneer (not directly to TuneCore). W-9s sent directly to TuneCore are NOT accepted.
+To submit: Log in to Payoneer → Activity tab → Tax Form → Pending → Submit
+To edit: Payoneer → Profile icon → Settings → Tax Forms → select form → Edit
+
+BACKUP WITHHOLDING:
+If no valid W-9 is on file, TuneCore withholds 24% of all U.S.-source royalties. Withholding applies until a valid W-9 is submitted via Payoneer. You can reclaim withheld amounts as a tax credit on your income tax return. TuneCore cannot reclaim or redeposit withheld funds.
+Only one W-9 per TuneCore account (even if multiple artists use the account).
+
+1099-MISC FORMS:
+U.S. persons who earned at least $5 in royalties receive a 1099-MISC from TuneCore by January 31 each year, delivered digitally from Track1099 and by mail.
+If you use both distribution and Publishing Administration: you receive two separate 1099s.
+S-Corps do not receive 1099s.
+To request a copy of a past 1099: contact TuneCore support from your registered email (allow ~3 weeks for digital copies).
+
+PAYONEER & RUSSIA:
+Since December 16, 2022, Payoneer no longer serves clients based in Russia or clients with Russian bank accounts. TuneCore accounts of Russian-based artists have NOT been closed and releases remain live, but withdrawals to Payoneer are no longer possible. Revenue continues to accrue in TuneCore accounts.
+
+
+== CREATING YOUR TUNECORE ACCOUNT ==
+
+HOW TO CREATE AN ACCOUNT:
+1. Go to tunecore.com → click "Sign Up" (top right)
+2. Enter name, country, email, and create a password → click "Create my free account"
+3. Verify your email via the link sent to you
+One email address per account. One account can manage multiple artists.
+
+
+== RELEASE STATUS GUIDE ==
+
+Statuses shown in your TuneCore Discography:
+- Submitted for Review: Successfully uploaded and awaiting review
+- Needs Action: Content Review denied it; check email or Release Tracker for what to fix; reply to the email after correcting it
+- Approved & Sent / Sent: Delivered to stores (may show "Sent" even before going live if iTunes is not selected)
+- Live: Successfully sent to iTunes and other selected stores; future release dates will not be live until that date
+- Incomplete / Ready to Go: Not yet checked out, or changes were requested and release was unfinalized
+- Taken Down: Removed from all stores
+- Denied: Content Review denied; check the email for details
+
+
+== RELEASE TRACKER ==
+
+TuneCore's Release Tracker (launched for most releases) shows where your release is in the distribution process in real time. Find it: Discography → click the colorful status bubble with the arrow on any release.
+Features: shareable graphic you can download and post (with animated background and audio snippet option). Download goes to Files/Downloads folder on mobile (not camera roll).
+Releases without a tracker: Social Platform-only releases, New Artist Plan releases (discontinued), or releases not yet submitted.
+
+
+== FACEBOOK / INSTAGRAM / META ==
+
+WHAT IT IS:
+Distributing to Facebook/Instagram allows creators to use your music in their Facebook and Instagram content (Stories, Reels, videos). TuneCore claims and monetizes videos that use your music. Revenue is reported under "Meta" in your Sales Reports. Facebook pays out quarterly.
+
+IMPORTANT: All tracks on a release must be eligible for the entire release to appear on Facebook/Instagram. If even one track is ineligible, the whole release is excluded.
+
+ELIGIBILITY REQUIREMENTS (same as YouTube Content ID):
+You can only submit tracks where you have exclusive rights. Cannot submit: samples, beats, ambient sounds, production loops, audio library samples, covers, remixes, spoken word (10+ sec), public domain material, karaoke/soundalike versions, traditional/holiday songs, compilations, DJ sets, tracks previously licensed exclusively to a third party, tracks already monetized on Facebook through another distributor, or music created solely to exploit the service.
+
+Go-live time: Most releases live within 1 week, up to 2 weeks.
+
+FINDING YOUR TRACK ON INSTAGRAM:
+Search format: "ISRC:XXXX12345678" (replace with your track's ISRC). Once you find it, save it to Favorites.
+
+SALES REPORTING:
+Use the "World Wide" country filter PLUS all country-specific filters to see total Meta earnings (World Wide alone only shows countries without individual filters).
+
+
+== YOUTUBE SHORTS ==
+
+YouTube Shorts (short-form videos up to 60 seconds) uses YouTube Content ID. When you distribute to YouTube Content ID, your music automatically becomes available for Shorts creators. You cannot opt into Shorts without also opting into YouTube Content ID. Available to creators in 100+ countries.
+
+
+== LYRICS ==
+
+DISTRIBUTING LYRICS:
+TuneCore distributes lyrics directly to iTunes/Apple Music only (text only — not synchronized/time-stamped).
+For Spotify and Instagram lyrics: use a third-party service like MusixMatch.
+For Instagram Stories lyrics: sign up for Facebook/Instagram Monetization AND get verified on MusixMatch to enable lyric stickers in Stories.
+
+
+== DOLBY ATMOS / SPATIAL AUDIO ==
+
+TuneCore delivers Dolby Atmos to Apple Music (played back as Spatial Audio with dynamic head-tracking on compatible Apple devices).
+Cost: $16.99 USD per track (added during upload). Cannot be added to existing releases at this time.
+File specs: BWF ADM format, 24-bit LPCM audio at 48kHz, all tracks at same frame rate, max -18 LKFS loudness, max -1 dB TP true-peak. Auto-generated/algorithmic Dolby Atmos from stereo masters is NOT accepted by Apple Music.
+
+
+== SOUNDTRACKS & MUSICAL THEATER ==
+
+Soundtracks and Musical Theater releases CAN be distributed through TuneCore.
+⚠️ Soundtracks are NOT eligible for Meta (Facebook/Instagram) or YouTube Content ID monetization.
+
+TV/Film/Video Game Soundtracks: Title must include version info (e.g. "Title (Original Motion Picture Soundtrack)", "Title (Music from the Original TV Series)").
+Musical Theater: Full cast recordings must include production info (e.g. "Title (Original Broadway Cast Recording)"). Do NOT use "Original" if it's not from the original staging.
+Composer credit: For instrumental scores, composer must be credited as Primary Artist AND Composer at album level. "Various Artists" is NOT acceptable for scores.
+
+
+== THE MECHANICAL LICENSING COLLECTIVE (MLC) ==
+
+The MLC is a U.S. nonprofit designated by the Copyright Office to collect digital mechanical royalties under the Music Modernization Act of 2018. Fully funded by DSPs — no cost to songwriters.
+
+WHAT MLC COLLECTS: U.S. mechanical royalties from Spotify, Apple Music, Amazon Music, Tidal, iTunes downloads only.
+
+WHAT MLC DOES NOT COLLECT: YouTube, TikTok, Facebook micro-sync royalties; global mechanical royalties; performance royalties (PROs collect those); physical sales; lyric royalties; print royalties; sync fees.
+
+TuneCore Publishing clients do NOT need to register with the MLC separately — TuneCore handles MLC registration as part of its global registration across hundreds of societies.
+
+
+== PUBLISHING ADMINISTRATION — SETUP GUIDE ==
+
+HOW TO SUBMIT SONGS:
+Publishing Dashboard → Songs → "Add a new song" OR use the Song Suggestion tool (auto-imports metadata from TuneCore distributed releases and Spotify for Artists).
+Add your share % and co-writer shares. Click "Add Writer" after selecting each writer. Tick the "right to collect" box. Click "Add Song."
+Songs are NOT automatically registered when you distribute — you must actively submit them with share information.
+100% of writer shares must be accounted for when submitting.
+
+SONGS NOT DISTRIBUTED THROUGH TUNECORE:
+Publishing Dashboard → "Add a New Song" → search by Spotify or enter metadata manually → add shares → add performing artist → "Add Song."
+
+COLLECTING FOR CO-WRITERS:
+You can collect for other songwriters ONLY with their explicit permission. Doing so without permission is a Terms of Service violation and may result in account termination and retraction of royalties.
+
+MULTIPLE RECORDINGS OF THE SAME COMPOSITION:
+Publishing Dashboard → Songs → click drop-down arrow → "Add New Recording" → search Spotify or enter metadata (title, artist, ISRC, label, release date) → "Add Recording."
+
+PUBLISHING COST (UPDATED):
+$75 one-time sign-up fee. 20% commission on royalties collected (per Updates to TuneCore Publishing article). 50% commission on sync licenses. (Note: an older article stated 15% commission — the $75 fee + 20% appears to be the current rate per the updated Publishing Dashboard article.)
+
+SYNC IS OPTIONAL:
+If you opt into sync, TuneCore's sync team pitches and licenses your songs at 50% commission. If you opt out, you can work with other sync agents while still collecting publishing royalties.
+
+DASHBOARD FEATURES (Updated Publishing Dashboard powered by Sentric):
+- Quarterly Royalty Statements
+- Advanced analytics on song performance
+- Collect royalties for yourself and other songwriters you're authorized to represent
+- Connect Spotify for Artists for seamless song management
+
+IDENTITY VERIFICATION (iDenfy):
+TuneCore requires ID verification for Publishing Administration via iDenfy (third-party). You'll need a valid ID with your photo. Verification takes 3–20 minutes on average. If you fail, contact Publishing Support to request a retry. Only one verification needed even across multiple artists you manage.
+
+
+== TOOLS & INTEGRATIONS ==
+
+SESSION STUDIO:
+A third-party DAW integration that lets you send release info (audio files + metadata) directly from Session Studio to TuneCore. Go to sessionstudio.com → connect your TuneCore account → add songs → Create Release → TuneCore. After sending, you still need to complete: Spotify/Apple Artist IDs, genre, contributor roles, copyright, explicit info, lyrics language, cover art, and TikTok Clip Start Time.
+
+LINKSHARE (IN-APP, FREE):
+A free built-in feature (separate from TuneCore Social Pro's linkShare) that creates a shareable page with links to your single across major stores. Only available for singles (not albums) that are live in at least one LinkShare store. Stores included: Amazon Music, Apple Music, Deezer, iTunes, Napster, Pandora, Spotify, TIDAL, YouTube Music. No analytics available. Not customizable. Accessible via the link icon on your release's cover art thumbnail in your Dashboard or Discography.
+
+SUPPORTED BROWSERS:
+Desktop: Firefox v78+, Safari v12.1.3+, Chrome 80+, Microsoft Edge v19+
+Mobile iOS: iOS 11 Safari v14+
+Mobile Android: Android v8+
+If having upload issues: clear cookies/cache, close browser, reopen and retry. Upload from computer only (not mobile or tablet).
+
+
+== MARKETING & PROMOTION ==
+
+LEGITIMATE PROMOTION STRATEGIES:
+- Pitch directly to Spotify playlist editors via Spotify for Artists (official pitching, free)
+- Use Spotify Campaign Kit or audio ads
+- Use TuneCore Accelerator for Spotify Discovery Mode (automated, free to opt in)
+- Radio Airplay and Feature.fm (special offers for TuneCore artists for internet radio/Deezer streams)
+- Build a website (discounted Bandzoogle plans for TuneCore artists)
+- Social media presence; use TuneCore Social for multi-platform management
+- Email fans with direct store links to drive streams and downloads
+- Share your Release Tracker graphic on social media at launch
+
+⚠️ NEVER pay for services promising streams, followers, or playlist placement — this is streaming fraud and can result in permanent removal from stores and account closure.
+
+
+
+== GETTING STORE LINKS & FINDING YOUR RELEASE ==
+
+STORE LINKS IN YOUR TUNECORE ACCOUNT:
+TuneCore automatically creates iTunes, Apple Music, and Spotify links to your release. Find them in your release dashboard → select your release → "Store Links" section (right side of page). These appear once your release shows "Live."
+iTunes link tip: If an iTunes link only opens Apple Music, add ?ls=1&app=itunes to the end of the Apple Music URL to force the iTunes download store link.
+To find your release in other stores: use TuneCore's LinkShare feature, or search by release title + artist name directly in each store.
+To check a foreign iTunes territory: open the iTunes application → click the flag at the bottom right → select the territory → search your release.
+
+HOW DO I RECEIVE MY RINGTONE IN ITUNES?
+Ringtones are only distributed to iTunes on iPhone. After distribution, search for your ringtone in the iTunes Store under "Tones" (not Music). Processing can take a few days after your release status shows "Live."
+
+
+== YOUTUBE OFFICIAL ARTIST CHANNEL (OAC) ==
+
+A YouTube OAC merges your Topic Channel(s) and Vevo channel (if applicable) into your primary owned-and-operated (O&O) artist channel. Unlocks: Discography section, Official Music Videos section, featured video slot, and merchandise retailer links.
+
+ELIGIBILITY REQUIREMENTS (must meet ALL):
+- Must be on an Unlimited Plan
+- Artist must be credited as Main/Primary Artist at the release level (Featured artists are not eligible)
+- O&O channel represents only one artist or band (no label channels)
+- At least 15 subscribers (50 for tunecore.in users)
+- At least 1 official Art Track live on YouTube distributed by TuneCore
+- No policy violations on your YouTube channel
+- O&O channel must have existing public video uploads (at least 1 music video preferred)
+
+HOW TO CLAIM:
+TuneCore Dashboard → scroll down to "Your Artist Accounts" → click "YouTube Official Artist Channel" box → select your artist → Claim → authenticate your Google account → confirm. Processing takes 2–3 weeks (may take longer due to YouTube's processing times).
+
+
+== ADVANCED PUBLISHING — ROYALTIES & LEGAL ==
+
+BLACK BOX ROYALTIES:
+"Black box" royalties are unclaimed/unallocated royalties that collection societies cannot match to the correct songwriter or publisher — due to bad data or because the songwriter was never registered with that society. Unmatched royalties are often redistributed to local publishers based on market share, meaning your money can be permanently lost to others. The solution: register globally with TuneCore Publishing, which covers hundreds of collection societies worldwide.
+
+YOUTUBE ACCRUED ROYALTIES:
+TuneCore enters an annual settlement with YouTube to claim unclaimed composition royalties from the prior two years. This covers US-based YouTube mechanical reproduction royalties only. If you don't claim by the annual deadline, those royalties may be permanently lost (unless you pursue legal action). Payouts are typically included in the November quarterly distribution after each deadline. TuneCore handles this automatically for all Publishing Administration clients who have registered their songs — no action required if your songs are registered.
+
+CLAIMING DIGITAL US MECHANICAL ROYALTIES (MLC):
+TuneCore works directly with The MLC to identify and claim US digital mechanical royalties historically not matched to rightsholders. Once songs are registered in your Publishing Dashboard, royalties identified at The MLC can take 6–9 months to appear in your account. TuneCore handles all MLC registration — you don't need to register directly.
+
+PUBLIC DOMAIN WORKS:
+You can collect songwriter royalties on public domain works IF you have created a new arrangement. In the US, works published before 1926 are in the public domain. As arranger (not composer/author), you can register the new arrangement. Note: public domain works generate fewer royalties — BMI pays 20% of normal value, ASCAP pays 10%. A work may be in public domain in the US but still protected in other countries. Always verify which specific version/arrangement is in the public domain.
+
+THE MUSIC MODERNIZATION ACT (2018):
+Signed October 28, 2018 — overhauled US copyright law to better support songwriters and artists. Three key components:
+1. Musical Works Modernization Act (Title I): Created a blanket license for interactive streaming services; established The MLC to collect and distribute digital mechanical royalties. Makes royalty collection more efficient for creators and easier for music services to obtain licenses.
+2. Classics Protection and Access Act (Title II): Created federal rights for owners of sound recordings made before February 15, 1972 (previously only covered by state law).
+3. Allocation for Music Producers Act — AMP Act (Title III): Made it easier for producers, mixers, and engineers to collect satellite/online radio royalties via a Letter of Direction to SoundExchange.
+
+
+== COPYRIGHT REGISTRATION ==
+
+TuneCore does NOT register your songs with the Copyright Office.
+Your music is automatically protected by copyright law as soon as it is created in a fixed form (recorded or written down).
+For formal registration with the US Copyright Office (copyright.gov):
+- PA form (Performing Arts): used to register a musical composition (lyrics and music)
+- SR form (Sound Recording): used to register the master/sound recording only
+Registration creates a public record and gives you stronger legal standing and better damage compensation if infringement occurs.
+
+
+
+== HATE CONTENT POLICY ==
+
+TuneCore will NOT distribute content that:
+1. Harasses or denigrates an individual or group of people
+2. Promotes racism, bigotry, hatred, or physical harm against any group or individual
+3. Is abusive, defamatory, pornographic, threatening, or obscene
+4. Is intended to promote commission of any illegal act
+
+TuneCore reserves the right to refuse distribution or take down any content violating this policy at any time without prior notice. All major store partners (Apple Music, Spotify, TIDAL, YouTube Music, Pandora, iHeartRadio) enforce similar policies.
+
+
+== REFUND POLICY ==
+
+All TuneCore sales are final. No refunds are issued. Contact TuneCore Artist Support for questions or concerns.
+
+
+== TUNECORE SYNC — FULL DETAILS ==
+
+TuneCore Sync is available to TuneCore Publishing Administration clients who also distribute through TuneCore. It's a creative pitching and licensing service where TuneCore's dedicated sync teams (based in Los Angeles, New York, London, Paris, and beyond) pitch your music to music supervisors and creatives for use in movies, TV, commercials, video games, trailers, and more.
+
+PRE-APPROVAL MODEL: By opting into TuneCore Sync, you pre-approve the team to pitch and license your music. You do NOT need to approve each individual sync opportunity. Exception: sensitive/controversial uses (political ads, explicit scenes, drug use) — the team will reach out for your approval as a courtesy.
+
+PITCHING YOUR OWN MUSIC: Encouraged! But as soon as a music supervisor shows interest and starts discussing terms, loop in the TuneCore sync team immediately. Do NOT sign anything without them.
+
+PAYMENT SCHEDULE: Sync fees appear in Quarterly Publishing Royalty Statements, posted 45 days after each quarter (May 15, Aug 15, Nov 15, Feb 15). Fees are included in the quarter TuneCore RECEIVES payment from the production — not when the sync airs.
+
+KEY FACTORS IN SYNC SELECTION:
+1. Creative fit — does the music match the project's needs?
+2. Cost — recognizable hits are more expensive; indie/back catalog is more affordable
+3. Rights — 100% of publishing rights must be accounted for; even 1% holdout can block the entire sync
+4. Sonic quality — high-quality WAV files are required; poor production quality hurts chances
+
+BEST PRACTICES FOR SYNC:
+- Always have high-res WAV files ready
+- Have instrumental versions (many projects need instrumental-only; also needed if explicit lyrics)
+- Have clean versions of explicit tracks
+- Maintain a strong online presence (music supervisors research artists)
+- Be patient — sync opportunities come in waves
+- If your beat contains a cleared sample: furnish documentation from the original publisher/label
+
+OPT-OUT: Opt out anytime from your Publishing Dashboard. 45-day notice rule applies: if you opt out 45+ days before quarter end → termination effective end of current quarter. If less than 45 days → termination effective end of the following quarter.
+
+
+== PRO MEMBERSHIP & TUNECORE PUBLISHING ==
+
+CAN I SIGN UP FOR TUNECORE PUBLISHING IF ALREADY A PRO MEMBER?
+Yes. TuneCore Publishing Administration complements your PRO membership — it does NOT replace it. Your PRO (ASCAP, BMI, SESAC, etc.) collects performance royalties. TuneCore Publishing collects mechanical royalties, the publisher's share of performance royalties, and other royalty streams your PRO does not collect.
+
+WILL I STILL RECEIVE PRO STATEMENTS?
+Yes. If you are a TuneCore Publishing Administration client, you will continue to receive your statements from your PRO. TuneCore and your PRO work together — TuneCore registers your works with your PRO on your behalf as well as hundreds of other societies worldwide.
+
+
+
+== MAKING CHANGES TO YOUR RELEASE ==
+
+WHAT CANNOT BE CHANGED AFTER DISTRIBUTION (LOCKED):
+- Adding, deleting, or reordering songs
+- Changing the UPC or ISRC
+- Changing the Original Release Date
+
+For any of these, you must take down the release and redistribute as a new release (new UPC, can reuse ISRCs if audio is identical).
+
+FOR ALL OTHER CHANGES — 2 OPTIONS:
+Option 1 (Recommended): Take down and redistribute. Guaranteed to update in all stores. Permanent — cannot be reversed. You pay for distribution again (no refund on the original). Release loses any store reviews, comments, and playlist placements associated with the original UPC.
+
+Option 2: Edit existing release directly. NOT recommended — TuneCore cannot guarantee all stores will apply the change. Spotify, iTunes, Amazon Music: ~2 weeks. Other stores: weeks to months, or possibly never.
+
+SELF-EDITABLE FIELDS (from your Discography, pencil icon):
+- TikTok Start Time
+- Songwriter
+- Language of Lyrics (excluding Chinese, Russian, Arabic, Hebrew, Bulgarian, Ukrainian — Cyrillic language rules)
+- Contributors (excluding Primary Artist, Featured Artist, Remixer, Producer)
+
+
+== CREATING A NEW RELEASE — STEP BY STEP ==
+
+1. Dashboard → Releases tab → Discography → choose Album, Single, or Ringtone
+2. Fill in release information → Save release and add songs
+3. Add songs: title, songwriter info, contributors, cover song info, lyrics, ISRC (free if you don't have one)
+4. Upload audio files (must meet audio requirements — WAV preferred)
+5. Upload artwork (cover art requirements apply)
+6. Select digital stores and social platforms → Save
+7. Complete checklist (checkmark next to every item)
+8. Checkout:
+   - Unlimited Plan: click "Distribute with Plan" → "Release Music"
+   - Pay-Per-Release: select 1yr/2yr/5yr subscription → "Add to Cart" → "Proceed to Checkout"
+
+Note: TuneCore only distributes ringtones to the iTunes store on iPhone.
+
+
+== RESETTING YOUR PASSWORD ==
+
+1. Go to tunecore.com → Login (top right) → "I forgot my password"
+2. Enter your account email → click "Request Password Reset"
+3. Check your email for reset instructions
+
+Password requirements: at least 8 characters, 1 uppercase letter, 1 number, 1 special character (@$!%*?&)
+
+
+== RELEASE RENEWALS (PAY-PER-RELEASE) ==
+
+For pay-per-release accounts only (Unlimited Plan renewals are covered separately):
+- Flat fee per release, on a 1-year, 2-year, or 5-year subscription basis
+- All accounts are auto-enrolled in auto-renewals by default
+- Email reminder sent 28 days before renewal due date
+- If renewal fails: email every 7 days for 35 days → after 42 days, release is taken down (grace period ends)
+- Payment: charged to saved credit card or PayPal automatically; if that fails, tries other saved methods
+
+To turn off auto-renewal: contact Artist Support (submit a request from your registered email address). Or manually renew: Account Settings → Subscriptions → "Pay now" next to the renewal.
+
+Note: Distribution credits cannot be used to pay for renewals.
+
+
+== YOUTUBE CONTENT ID — ADDITIONAL Q&A ==
+
+DO I NEED A YOUTUBE CHANNEL TO USE CONTENT ID?
+No. TuneCore can monetize the use of your audio in videos created by other people even without your own YouTube channel.
+
+CAN YOUTUBE MONETIZE COMPOSITION RIGHTS?
+No. YouTube Content ID only monetizes your sound recording rights (the master). To monetize your composition rights (songwriting royalties), you need TuneCore Publishing Administration.
+
+HOW ARE OTHER PEOPLE'S VIDEOS IMPACTED?
+When your song is opted into Content ID, YouTube places a claim (NOT a copyright strike) on videos using your music. Claims do not negatively affect a channel's standing — they simply enable monetization on your behalf. Video creators cannot prevent YouTube from placing ads on a monetized video. The only way to avoid ads is to take the video down.
+
+CAN I EXCLUDE A SPECIFIC VIDEO FROM MONETIZATION?
+You can whitelist your own YouTube channel (to prevent TuneCore from monetizing your own videos). You cannot exclude individual third-party videos. Only one channel whitelist is allowed.
+
+
+== PUBLISHING ADMINISTRATION — COPYRIGHT Q&A ==
+
+WHAT IS THE DIFFERENCE BETWEEN A COMPOSITION AND A SOUND RECORDING?
+A composition = the musical work itself — the lyrics and melody written by the songwriter/composer.
+A sound recording (master) = the recording of a performance of that composition.
+Example: Dolly Parton wrote "I Will Always Love You" (composition). Whitney Houston recorded a version (sound recording). Arista Records owns the sound recording; Dolly Parton owns the composition.
+
+BY HIRING TUNECORE, DO I GIVE UP MY COPYRIGHTS?
+No. You grant TuneCore exclusive administration rights for the duration of the agreement. You retain 100% ownership and control of your songs, music, and copyright.
+
+CAN I SUBMIT A COMPOSITION I COVERED FOR PUBLISHING ADMIN?
+No. You can only submit ORIGINAL compositions that you wrote. Covers are owned by the original songwriter and their publisher. You CAN submit co-written songs (submit your share only, providing co-writers' names and shares).
+
+CAN I SUBMIT COMPOSITIONS I DID NOT WRITE?
+No. Only original compositions you wrote (or co-wrote) are accepted for Publishing Administration.
+
+DOES MY COMPOSITION GENERATE ROYALTIES WHEN STREAMED?
+Yes. When your song is streamed on an interactive service (Spotify, Apple Music, YouTube, Tidal):
+1. Performance royalty (writer's share) — collected by your PRO
+2. Mechanical streaming royalty — collected by TuneCore Publishing Administration
+3. Sound recording royalty — collected by TuneCore Distribution
+
+When played on non-interactive/internet radio (Pandora, Sirius XM, TuneIn):
+1. Performance royalty for the composition — collected by your PRO
+2. Performance royalty for the sound recording — collected by SoundExchange (paid direct to artists)
+
+
+
+== SWITCHING TO TUNECORE FROM ANOTHER DISTRIBUTOR ==
+
+1. Contact your current distributor and request a takedown of your content.
+2. You can re-upload and distribute through TuneCore even before the old release is fully removed from every store.
+3. Expect a brief overlap or gap — each store processes removals and new deliveries on its own timeline.
+4. UPC and ISRC reuse: You CAN reuse the same UPC and ISRCs if the release is exactly the same (same tracks, same order, same audio). You CANNOT reuse them if anything changed (tracks added/removed/reordered, audio re-recorded/remixed, titles changed).
+5. If you need new codes, leave the fields blank — TuneCore generates UPCs and ISRCs for free.
+
+
+== WHY HAS MY MUSIC BEEN REMOVED FROM STORES? ==
+
+If you didn't request a takedown but your release disappeared from stores, the most likely cause is an expired renewal. Music must be renewed annually (pay-per-release accounts) or covered by an active Unlimited Plan to stay live.
+
+TuneCore sends notification emails before your renewal date, then two more reminders after it passes, with a grace period to pay before removal. Once a release is removed, it is final and cannot be reversed — you must redistribute as a brand new release with a new UPC. ISRCs can be reused if the audio is identical.
+
+
+== FENDER STUDIO PRO+ INTEGRATION ==
+
+Fender Studio Pro+ is a DAW (Digital Audio Workstation) with a direct TuneCore integration — similar to Session Studio. You can produce, record, mix, and master, then send finished tracks directly to TuneCore.
+
+HOW TO GET STARTED:
+1. Connect your TuneCore account by clicking the TuneCore record logo in the top-left of Fender Studio Pro+
+2. Authorize access to your TuneCore account
+3. Upload songs with audio files and metadata
+4. Click the TuneCore record logo → send release to TuneCore
+5. Complete the release in your TuneCore account (cover art, store selection, contributor roles, explicit info, etc.)
+
+WHAT TRANSFERS AUTOMATICALLY: Release Title, Primary Artist, Release Language, Song Title, Release Date, Audio files.
+
+WHAT YOU MUST ADD IN TUNECORE: Spotify/Apple Artist IDs, contributor roles, copyright info, explicit flags, lyrics language, cover art, TikTok Clip Start Time (optional), store selection.
+
+DISCOUNTS:
+- Existing TuneCore artists: 25% off first year of Fender Studio Pro+ Hybrid Subscription
+- Fender Studio Pro+ subscribers new to TuneCore: 50% off first year of Rising, Breakout, or Professional Unlimited Plan
+
+
+== YOUTUBE — MONETIZABLE VIEWS ==
+
+A "Monetizable View" on YouTube means a view that generates revenue from your sound recording. Two types:
+1. Ad-supported view: An ad is placed on the video → that view generates revenue from the ad.
+2. Premium subscription view: A YouTube Premium subscriber (no ads) watches the video → revenue is generated from their monthly subscription fee.
+
+Not every view is monetizable. Whether a view has ads depends on: the viewer's territory, the per-viewer ad frequency limits, and various copyright policies.
+
+
+
 == COMMON QUESTIONS ==
 
 Q: Do I keep 100% of my royalties from distribution?
