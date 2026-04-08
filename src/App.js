@@ -1,5 +1,70 @@
 import { useState, useRef, useEffect } from "react";
 
+// ─── Lightweight markdown → HTML renderer ────────────────────────────────────
+function renderMarkdown(text) {
+  let html = text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+
+  // Code blocks
+  html = html.replace(/```[\w]*\n?([\s\S]*?)```/g, (_, code) =>
+    `<pre><code>${code.trim()}</code></pre>`
+  );
+
+  // Inline code
+  html = html.replace(/`([^`]+)`/g, "<code>$1</code>");
+
+  // Headers
+  html = html.replace(/^### (.+)$/gm, "<h3>$1</h3>");
+  html = html.replace(/^## (.+)$/gm, "<h2>$1</h2>");
+  html = html.replace(/^# (.+)$/gm, "<h1>$1</h1>");
+
+  // Bold + italic
+  html = html.replace(/\*\*\*(.+?)\*\*\*/g, "<strong><em>$1</em></strong>");
+  html = html.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+  html = html.replace(/\*(.+?)\*/g, "<em>$1</em>");
+
+  // Links
+  html = html.replace(
+    /\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g,
+    '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>'
+  );
+
+  // Bare URLs
+  html = html.replace(
+    /(?<!["\'>])(https?:\/\/[^\s<]+)/g,
+    '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>'
+  );
+
+  // Horizontal rule
+  html = html.replace(/^---+$/gm, "<hr/>");
+
+  // Unordered lists
+  html = html.replace(/^[\*\-] (.+)$/gm, "<li>$1</li>");
+  html = html.replace(/(<li>[\s\S]*?<\/li>\n?)+/g, (m) => `<ul>${m}</ul>`);
+
+  // Ordered lists
+  html = html.replace(/^\d+\. (.+)$/gm, "<oli>$1</oli>");
+  html = html.replace(/(<oli>[\s\S]*?<\/oli>\n?)+/g, (m) =>
+    `<ol>${m.replace(/<\/?oli>/g, (t) => t.replace("oli", "li"))}</ol>`
+  );
+
+  // Paragraphs
+  html = html
+    .split(/\n{2,}/)
+    .map((block) => {
+      block = block.trim();
+      if (!block) return "";
+      if (/^<(h[1-6]|ul|ol|pre|hr)/.test(block)) return block;
+      return `<p>${block.replace(/\n/g, "<br/>")}</p>`;
+    })
+    .join("\n");
+
+  return html;
+}
+
+
 // ─── TuneCore Knowledge Base context ────────────────────────────────────────
 // Built by Intuitio Labs · Knowledge Base sourced from Notion
 // Notion DB: collection://edc42fb0-fa4b-43f9-b96c-1193de02318f
@@ -1514,11 +1579,12 @@ export default function App() {
                 fontSize: "15px",
                 lineHeight: "1.75",
                 color: m.role === "user" ? "#d4cfc4" : "#e0dbd0",
-                whiteSpace: "pre-wrap",
               }}
-            >
-              {m.content}
-            </div>
+              className={m.role === "assistant" ? "md-body" : ""}
+              {...(m.role === "assistant"
+                ? { dangerouslySetInnerHTML: { __html: renderMarkdown(m.content) } }
+                : { children: m.content })}
+            />
           </div>
         ))}
 
@@ -1711,6 +1777,63 @@ export default function App() {
             border-left: none;
             border-right: none;
           }
+        }
+
+        /* ── Markdown rendering ── */
+        .md-body { color: #ffffff; }
+        .md-body p { margin: 0 0 12px 0; color: #ffffff; }
+        .md-body p:last-child { margin-bottom: 0; }
+        .md-body h1, .md-body h2, .md-body h3 {
+          color: #ffffff;
+          font-weight: 700;
+          margin: 18px 0 8px 0;
+          line-height: 1.3;
+        }
+        .md-body h1 { font-size: 17px; }
+        .md-body h2 { font-size: 15px; }
+        .md-body h3 { font-size: 14px; letter-spacing: 0.03em; }
+        .md-body ul, .md-body ol {
+          margin: 8px 0 12px 0;
+          padding-left: 22px;
+          color: #ffffff;
+        }
+        .md-body li { margin-bottom: 5px; line-height: 1.65; color: #ffffff; }
+        .md-body strong { color: #ffffff; font-weight: 700; }
+        .md-body em { color: #e0dbd0; font-style: italic; }
+        .md-body code {
+          background: #1e1c14;
+          border: 1px solid #2e2c1e;
+          border-radius: 4px;
+          padding: 1px 6px;
+          font-family: 'Courier New', monospace;
+          font-size: 13px;
+          color: #ffffff;
+        }
+        .md-body pre {
+          background: #1a180f;
+          border: 1px solid #2e2c1e;
+          border-radius: 6px;
+          padding: 14px 16px;
+          overflow-x: auto;
+          margin: 10px 0;
+        }
+        .md-body pre code {
+          background: none;
+          border: none;
+          padding: 0;
+          font-size: 13px;
+          color: #ffffff;
+        }
+        .md-body a {
+          color: #c9a84c;
+          text-decoration: underline;
+          text-underline-offset: 2px;
+        }
+        .md-body a:hover { color: #e0c070; }
+        .md-body hr {
+          border: none;
+          border-top: 1px solid #2a2820;
+          margin: 16px 0;
         }
       `}</style>
     </div>
