@@ -26,9 +26,7 @@ CONTACT: For issues not resolved here, visit https://support.tunecore.com or ope
 
 == WHO IS TUNECORE ==
 
-TuneCore is a music distribution and publishing administration company that empowers independent artists, bands, and labels to distribute music globally, collect royalties, and build their careers — all while retaining full ownership and control of their music.
-
-Founded in 2005, TuneCore is one of the world's leading digital music distribution services and has paid out billions of dollars in royalties to independent artists.
+TuneCore is a music distribution and publishing administration company that empowers independent artists, bands, and labels to distribute music globally, collect royalties, and build their careers — while retaining full ownership and control of their music. TuneCore has paid out billions of dollars in royalties to independent artists.
 
 
 == TUNECORE'S CORE SERVICES ==
@@ -37,117 +35,197 @@ Founded in 2005, TuneCore is one of the world's leading digital music distributi
 TuneCore distributes music to 150+ stores and streaming platforms worldwide, including Spotify, Apple Music, Amazon Music, YouTube Music, Tidal, Deezer, TikTok, Instagram/Facebook, Pandora, iHeartRadio, Napster, Gaana, Qobuz, Douyin, and many more.
 - Artists keep 100% of their sales revenue. TuneCore charges a flat annual distribution fee per release — not a royalty cut.
 - Artists retain full ownership and copyright of their music at all times.
-- TuneCore distributes Singles, EPs, and full Albums. Ringtones are also supported.
-- Cover art requirements: square format, JPG or PNG, RGB color mode, minimum 1400×1400px, maximum 3000×3000px, no explicit content visible in artwork unless marked.
+- TuneCore distributes Singles and Albums (TuneCore's platform does not have a dedicated EP product type, but albums with fewer tracks may be classified as EPs by stores like iTunes and Spotify). Ringtones are also supported.
 
 2. PUBLISHING ADMINISTRATION
-TuneCore Publishing Administration helps songwriters/composers collect publishing royalties that their PRO (Performing Rights Organization) may not be fully collecting — including:
+TuneCore Publishing Administration helps songwriters/composers collect publishing royalties that their PRO (Performing Rights Organization) may not be fully collecting:
 - Mechanical royalties (from streaming and downloads)
 - Foreign performance royalties (from international PROs)
 - Synchronization royalties (Film & TV licensing)
 TuneCore Publishing Administration requires exclusive administration rights for the compositions you register. It does NOT affect your copyright ownership.
-Cost: TuneCore charges a commission on collected royalties. For synchronization licenses, the commission is 15%. Other royalty types have their own commission structures — check the KB for current rates.
-TuneCore Publishing will pitch compositions for Film & TV sync opportunities.
+
+COMMISSION RATES (Publishing Administration):
+- 15% commission on royalties collected from the exploitation and broadcast of your compositions (performance, mechanical, etc.)
+- 50% commission on any earnings from Synchronization (audio-visual / Film & TV licenses)
+TuneCore Publishing will pitch your compositions for Film & TV sync opportunities.
 
 3. YOUTUBE CONTENT ID
 TuneCore can register your sound recordings with YouTube Content ID, allowing you to earn revenue when your music is used in YouTube videos — even videos you didn't upload.
 - Revenue varies by viewer territory, ad format, viewer device, and user experience.
 - Not all views will generate revenue (YouTube does not place ads on every view).
-- Artists can choose to monetize, block, or track videos that use their recordings.
+- Artists can monetize, block, or track videos that use their recordings.
 - Artists can opt out of YouTube monetization even while using TuneCore Publishing Administration.
 
 
-== KEY FACTS & POLICIES ==
+== AUDIO FILE REQUIREMENTS ==
+
+TuneCore recommends:
+- WAV file, 24-bit (sample size), 192 kHz (sample rate), 1411 kbps (bit rate), stereo mode
+
+TuneCore also accepts:
+- WAV file, 16-bit (sample size), 44.1 kHz (sample rate), 1411 kbps (bit rate), stereo mode
+
+Important: Do NOT embed metadata in your audio files. Stores do not accept embedded metadata — all metadata (album title, artist name, song name, etc.) must be entered manually in TuneCore. Uploading must be done from a computer — not a mobile device or tablet.
+
+
+== COVER ART REQUIREMENTS ==
+
+Your artwork MUST be:
+- JPG, PNG, or GIF image file
+- Smaller than 10MB
+- Perfect square, at least 1600 × 1600 pixels (iTunes recommends 3000 × 3000), no larger than 3000 × 3000 pixels
+- RGB Color mode (including black and white images)
+- Resolution of at least 72 dpi (300 dpi is better)
+- Only include text stating the artist name and release title (exactly as entered in TuneCore), OR image only with no text
+- Images you own the rights to distribute
+
+Do NOT include: extra text, URLs or email addresses, pricing info, references to digital/physical formats (e.g. "CD," "Digital Exclusive"), iTunes or store logos, blurry or cut-off artwork, or copyrighted images you don't own.
+
+Note: On Breakout or Professional Unlimited plans, TuneCore can generate cover art for you.
+
+
+== RELEASE TYPE DEFINITIONS ==
+
+TuneCore's platform has Singles and Albums. How stores classify them:
+
+SINGLES:
+- iTunes: 1–3 tracks, total ≤ 30 minutes, each track < 10 minutes. iTunes auto-appends "- Single" to the title.
+- Spotify: Under 30 minutes, 3 or fewer tracks.
+- Tracks priced at $0.99 on iTunes if under 10 minutes. Tracks 10+ minutes are sold at album price.
+
+ALBUMS:
+- TuneCore platform: Any release with 2 or more tracks (up to 100 tracks, max 2.5 hours).
+- iTunes: 7+ tracks, OR 1–6 tracks but over 30 minutes total.
+
+EPs (no dedicated EP product in TuneCore — albums may be classified as EPs by stores):
+- iTunes EP: 4–6 tracks under 30 minutes, OR 1–3 tracks where one is ≥ 10 minutes and total is < 30 minutes. iTunes auto-appends "- EP".
+- Spotify EP: Under 30 minutes, 4–6 tracks.
+
+LONG SINGLES: A single track longer than 10 minutes can be distributed as a long single.
+
+
+== PAYMENT & ROYALTIES TIMELINE ==
+
+Publishing Administration Payouts:
+TuneCore pays out publishing royalties 45 days following the end of each calendar quarter:
+- Q1 (Jan–Mar): payout mid-May
+- Q2 (Apr–Jun): payout mid-August
+- Q3 (Jul–Sep): payout mid-November
+- Q4 (Oct–Dec): payout mid-February of the following year
+
+First royalty payment typically takes 9–12 months after registration. For foreign societies, it can take 12–18 months. This is standard for any publisher due to the time required to register songs at global societies and process payments.
+
+TuneCore requires tax information for payment:
+- U.S. artists: W-9
+- International artists: W-8BEN
+
+
+== CHANGES AFTER DISTRIBUTION ==
+
+Once a release has been sent to stores, the following CANNOT be changed:
+- Adding, deleting, or reordering songs
+- Changing the UPC or ISRCs (these are unique, release-specific identifiers and can never be edited)
+- Changing the Original Release Date
+
+To make these changes, you must request a takedown of the current release and distribute a new version (this counts as a new release and may require a new fee, unless on an Unlimited Plan). The resubmission is treated as a new product by stores.
+
+Changes that CAN be made after distribution (check TuneCore's platform for specifics): pricing, store selection, and certain metadata corrections.
+
+
+== COVER SONGS, REMIXES, SAMPLES & INTERPOLATIONS ==
+
+COVER SONGS:
+- You own the recording (your version) but not the original composition. You must obtain a mechanical license from the original copyright holder before distributing.
+- In the U.S., licenses can be obtained via The Harry Fox Agency or TuneLicensing (TuneCore's partner).
+- Soundalike covers (recordings that closely mimic the original) are NOT accepted by iTunes and most stores — these will be hidden and TuneCore cannot reverse this.
+- Cover song formatting: Credit original songwriters with the role "Songwriter." Do NOT reference the original artist in the Main/Featuring Artist fields or track title.
+  CORRECT: "All Along the Watchtower" or "All Along the Watchtower (Cover)"
+  INCORRECT: "All Along the Watchtower (Cover of Bob Dylan)"
+- Note for Indian music: Under Indian copyright law, cover licenses cannot be granted until 5 years after the original recording was made. Explicit permission from copyright owners is required.
+- TuneCore Publishing users: A mechanical license for a cover does NOT grant rights to register the work for publishing — you must be a credited writer of the underlying composition.
+
+REMIXES, SAMPLES, MASHUPS, INTERPOLATIONS:
+- Must have a Master Use license from the owner of the original recording. These cannot be issued by a third-party licensor.
+- You cannot distribute any content through TuneCore if you do not have 100% of the rights to that content.
+
+
+== ISRC & UPC ==
+
+- TuneCore automatically provides UPC (release barcode) and ISRC codes (per-track identifiers) at no extra charge.
+- Artists can supply their own UPC/ISRC if they already have them.
+- UPC and ISRC codes cannot be changed after distribution — they are permanently tied to that release.
+
+
+== HATE CONTENT POLICY ==
+
+TuneCore does not distribute hate speech or illegal content. TuneCore will refuse or take down content that:
+1. Harasses or denigrates an individual or group
+2. Promotes racism, bigotry, hatred, or physical harm
+3. Is abusive, defamatory, pornographic, threatening, or obscene
+4. Promotes the commission of illegal acts
+
+TuneCore can take down such content without prior notification at their full discretion.
+
+
+== OTHER KEY FACTS ==
 
 COPYRIGHT:
-- Your music is automatically copyrighted the moment it is created in a fixed medium (written down or recorded).
-- Registration with the U.S. Copyright Office (copyright.gov) is NOT required before distributing via TuneCore, but is strongly recommended — registration creates a public record and enables lawsuits for monetary damages.
-
-RELEASE TYPES:
-- Single: 1–3 tracks (1–2 tracks is standard; 3 tracks if the total runtime is under 10 minutes and no track exceeds 10 minutes).
-- EP: 4–6 tracks OR 1–3 tracks with total runtime between 10–30 minutes.
-- Album: 7+ tracks OR 6+ tracks with total runtime over 30 minutes.
-- Long singles (a single track longer than 10 minutes) can be distributed.
-
-ISRC & UPC:
-- TuneCore automatically provides UPC (barcode for the release) and ISRC codes (identifier for each track) at no extra charge.
-- Artists can supply their own UPC/ISRC if they already have them.
-
-PRICING IN STORES:
-- TuneCore sets standard pricing in stores. Artists can request different pricing tiers in some cases.
-- Pricing in international stores may vary due to exchange rates and store policies.
-
-PRE-ORDERS:
-- TuneCore supports iTunes/Apple Music pre-orders. The release must be submitted at least 7 days before the pre-order start date.
-- Benefits: builds anticipation, generates early sales, day-of-release sales count toward chart eligibility.
-
-EXPLICIT CONTENT:
-- Tracks must be marked as Explicit or Clean accurately.
-- Explicit: contains profanity, explicit sexual content, or extreme violence.
-- Clean: radio-edit version of an explicit track.
-
-CHANGES AFTER DISTRIBUTION:
-- Some metadata changes (artist name, track order, track count) cannot be made after a release is live in stores.
-- Changes that ARE allowed: price, title corrections (minor), adding/removing stores, updating assets.
+- Music is automatically copyrighted upon creation in a fixed medium (written down or recorded). Registration is NOT required before using TuneCore, but is recommended — it creates a public record and enables monetary damages in legal disputes. U.S. registration: copyright.gov.
 
 RENEWALS:
-- TuneCore distribution is on an annual subscription basis. Artists must renew each release annually to keep it in stores.
-- Failure to renew results in the release being removed from stores.
-
-REFUNDS:
-- TuneCore has a refund policy — check the KB for current terms, as policies vary by situation.
+- TuneCore distribution is on an annual subscription basis. Artists must renew each release annually to keep it live in stores.
 
 ACCOUNT MANAGEMENT:
 - Two-Factor Authentication (2FA) is supported.
-- Artists can update contact information, reset passwords, and manage payment methods in their account settings.
-- Account deletion: TuneCore supports soft deletes — data retained per their data policies.
+- Contact info, passwords, and payment methods can be updated in account settings.
+- TuneCore supports closing your account — check the KB for the process.
 
-REPORTING & PAYMENTS:
+REPORTING:
 - TuneCore provides Trends & Analytics reports in the dashboard.
-- Payments are made after stores report sales — timing varies by store (typically monthly, with a reporting delay of 2–3 months).
-- TuneCore requires tax information (W-9 for US artists, W-8BEN for international) for payment processing.
+- TuneCore DOES report to Luminate (formerly Nielsen Soundscan).
 
 SPECIAL POLICIES:
 - TuneCore does NOT distribute audiobooks.
 - TuneCore does NOT offer CD/DVD replication or poster manufacturing.
-- TuneCore DOES report to Luminate (formerly Nielsen Soundscan).
-- Cover songs require a mechanical license — TuneCore offers cover song licensing powered by Royalty Solutions.
+- Cover songs require a mechanical license — TuneCore offers Cover Song Licensing powered by Royalty Solutions.
 - Chinese text in metadata cannot be distributed to certain stores.
 - Hebrew language releases cannot be distributed to iTunes.
 - Peloton Music: TuneCore has a specific distribution relationship with Peloton.
+- Labels can distribute music for multiple artists through TuneCore.
+- Charity/non-profit music can be released through TuneCore.
 
 
 == COMMON QUESTIONS ==
 
-Q: Do I keep 100% of my royalties?
-A: Yes — TuneCore charges a flat annual fee for distribution, not a percentage of your royalties. You keep 100% of revenue from music sales and streams through TuneCore Distribution. (Note: TuneCore Publishing Administration does take a commission on royalties collected through that separate service.)
+Q: Do I keep 100% of my royalties from distribution?
+A: Yes — TuneCore charges a flat annual fee for distribution, not a percentage of your royalties. You keep 100% of revenue from sales and streams. (Publishing Administration is a separate service with its own commission structure: 15% on general royalties, 50% on sync licenses.)
 
 Q: What is the difference between a Performer and a Songwriter?
-A: A Performer (recording artist) earns money from sales/streams of the sound recording. A Songwriter/Composer earns publishing royalties from the underlying composition — the melody and lyrics. The same person can be both, but the royalty streams are separate and collected differently.
+A: A Performer (recording artist) earns money from sales/streams of the sound recording. A Songwriter/Composer earns publishing royalties from the underlying composition (melody and lyrics). These are separate royalty streams collected differently.
 
 Q: What is SoundExchange?
-A: SoundExchange is a U.S. non-profit that collects and distributes digital performance royalties for sound recordings — specifically from non-interactive digital radio (like Pandora, SiriusXM). These are separate from the publishing royalties collected by PROs.
+A: SoundExchange is a U.S. non-profit that collects digital performance royalties for sound recordings from non-interactive digital radio (Pandora, SiriusXM, etc.). These are separate from PRO publishing royalties.
 
 Q: What is a PRO?
-A: A Performing Rights Organization (PRO) — such as ASCAP, BMI, SESAC in the U.S., or PRS, SOCAN, APRA internationally — collects public performance royalties for songwriters when music is played on radio, TV, in businesses, or streamed. TuneCore Publishing Administration works alongside your PRO to collect royalties your PRO may miss.
+A: A Performing Rights Organization (PRO) — such as ASCAP, BMI, SESAC in the U.S. — collects public performance royalties for songwriters when music is played on radio, TV, in businesses, or streamed. TuneCore Publishing Administration collects royalties your PRO may miss, like mechanical and foreign royalties.
 
 Q: What is a CAE/IPI Number?
-A: A CAE (Composer, Author, Publisher) number — now called an IPI (Interested Parties Information) number — is a unique identifier assigned to songwriters and publishers by PROs worldwide. It is used to track and route royalty payments.
-
-Q: Will TuneCore pitch my music for Film & TV sync?
-A: Yes, TuneCore Publishing Administration includes pitching your compositions for Film & TV placement opportunities. The commission on sync licenses is 15%.
+A: A unique identifier (Composer, Author, Publisher / Interested Parties Information) assigned to songwriters by PROs worldwide. Used to track and route royalty payments globally.
 
 Q: Can I distribute cover songs?
-A: Yes, but you need a mechanical license for the composition. TuneCore offers Cover Song Licensing powered by Royalty Solutions to handle this.
+A: Yes, but you need a mechanical license for the original composition first. TuneCore offers Cover Song Licensing via Royalty Solutions. Soundalike covers are not accepted. See cover song rules above.
 
 Q: Can I set territory restrictions?
 A: Yes — TuneCore allows artists to restrict distribution to specific territories/countries.
 
 Q: What is the Store Automator?
-A: TuneCore's Store Automator automatically adds new music stores to your existing releases as TuneCore expands its distribution network.
+A: TuneCore's Store Automator automatically adds newly partnered stores to your existing releases as TuneCore expands its network.
 
 Q: Can I monetize my music on YouTube if I don't have a YouTube channel?
-A: Yes — through YouTube Content ID, TuneCore can monetize your sound recordings on YouTube even if you don't have your own channel.
+A: Yes — YouTube Content ID allows TuneCore to monetize your sound recordings on YouTube across all videos that use them, even without your own channel.
+
+Q: How long until my publishing royalties arrive?
+A: Typically 9–12 months for the first payment (12–18 months for foreign societies). After that, payouts happen quarterly, 45 days after each quarter ends.
 `;
 
 const SUGGESTED_QUESTIONS = [
@@ -187,7 +265,7 @@ export default function App() {
     setLoading(true);
 
     try {
-      const res = await fetch("https://api.anthropic.com/v1/messages", {
+      const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
